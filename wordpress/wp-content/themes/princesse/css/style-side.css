@@ -1,0 +1,130 @@
+*{
+  font-family: 'Crimson Text', serif;
+  background-color: #ffffff;
+}
+
+.dog-ad{
+  margin-top:50px;
+}
+
+.sidebar{
+  width: 375px;
+  height: 900px;
+  float: left;
+  padding-left: 60px
+}
+.sidebar .socialside .sm{
+  color: white;
+  width: 300px;
+  height: 42px;
+  padding: 15px 10px;
+  display: block;
+  margin : 1px 0px;
+}
+
+.socialside{
+  width: 300px;
+  height: 130px;
+  margin-top: 100px;
+  background-color: white;
+  margin-right: none;
+}
+.socialside img{
+  margin: 0;
+}
+
+.socialside .sm.fb a{
+  float: left;
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
+.socialside .sm.fb span{
+  float: right;
+  background-color: transparent;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+}
+.sm.fb{
+  background-color: #899dce;
+}
+.sm.fb img{
+  background-color:transparent;
+}
+.socialside .sm.fb a:hover{
+  background-color:black;
+}
+.socialside .sm.fb span:hover{
+  background-color:black;
+
+}
+.sm.fb:hover {
+  background-color:black;
+}
+.socialside .sm.tw a{
+  float: left;
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
+.socialside .sm.tw span{
+  float: right;
+  background-color: transparent;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+}
+.sm.tw{
+  background-color: #60d2f5;
+}
+.sm.tw img{
+  background-color: transparent;
+}
+.socialside .sm.tw a:hover{
+  background-color:black;
+}
+.socialside .sm.tw span:hover{
+  background-color:black;
+
+}
+.sm.tw:hover{
+  background-color:black;
+}
+.socialside .sm.ig a{
+  float: left;
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
+.socialside .sm.ig span{
+  float: right;
+  background-color: transparent;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+}
+.sm.ig{
+  background-color: #709cbf;
+}
+.sm.ig img{
+  background-color:transparent;
+}
+.socialside .sm.ig a:hover{
+  float: left;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+.socialside .sm.ig span:hover{
+  float: right;
+  background-color: black;
+  color: white;
+
+}
+.sm.ig:hover{
+  background-color: black;
+}

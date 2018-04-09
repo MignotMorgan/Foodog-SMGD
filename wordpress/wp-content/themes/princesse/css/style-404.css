@@ -1,0 +1,68 @@
+.page-404{
+  width: 700px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.page-404 h1{
+  font-size: 120px;
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: 900;
+  color: #4b4f54;
+}
+.looks p{
+  text-align: center;
+  font-family: "Crimson Text";
+  font-size: 18px;
+  color: #aaaaaa;
+}
+.loupe{
+  opacity: 0.5;
+  float: right;
+  margin-top: 13px;
+  margin-right: 15px;
+  /* background-image: url('wp-content/themes/princesse/loupe.png'); */
+}
+.search-404{
+  width: 800px;
+  height: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  justify-content: center;
+  border: solid 3px  #E8E8E8;
+}
+.search-404:hover{
+  border: solid 3px black;
+  opacity: 1;
+}
+
+input {
+    border: none;
+    background: transparent;
+}
+
+.search-404 img{
+  float: right;
+  width: 6%;
+  opacity: 0.5;
+}
+.search-404 img:hover{
+  opacity: 1;
+}
+.search-404 input[type=text] {
+  width: 80%;
+  height: 60px;
+  padding: 20px;
+  margin-top: 18px;
+  margin: auto;
+  font-size: 30px;
+  font-style: italic;
+  opacity: 0.5;
+  }
+  .search-404 input[type=text]:hover {
+    opacity: 1;
+    }
