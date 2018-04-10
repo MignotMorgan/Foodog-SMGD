@@ -4,7 +4,9 @@
             <?php
                 if ( has_post_thumbnail() )     // On verifie si l'article contient une image
                 {
-                    the_post_thumbnail('thumbnail', array('class' => 'article-middle-img'));       // On affiche l'image.
+                    echo "<a href='" .get_the_permalink() ."'>";
+                    the_post_thumbnail('thumbnail', array('class' => 'article-middle-img img_filter'));       // On affiche l'image.
+                    echo "</a>";            
                 }
             ?>
         </div>
