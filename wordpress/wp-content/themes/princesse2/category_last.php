@@ -1,18 +1,23 @@
 <section class="category_last-section">
+
 <?php
+$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+
 $args= array(
     // 'nbr' => 1,
     // 'showposts' => 5,
     'posts_per_page' => 6,
+    'paged'          => $paged,
     'orderby'        => 'rand',
     'order' => 'DESC',
+    // 'page'=>'get_page_uri',
 
     //'title' => "The Importance of Letting Your Dog Sniff"
     // 'cat' => $catID
-    'post_type'        => 'post',
-    'meta_key'         => '_thumbnail_id',
-    'meta_value_num'   => 0,
-    'meta_compare'     => '!='
+    // 'post_type'        => 'post',
+    // 'meta_key'         => '_thumbnail_id',
+    // 'meta_value_num'   => 0,
+    // 'meta_compare'     => '!='
     );
 $the_query = new WP_Query($args);
 $i = 0;
@@ -29,7 +34,7 @@ if ( $the_query->have_posts() ) :
         echo '</div>';
         $i++;
     }
-    endwhile;
+  endwhile;
 endif;
 
 ?>

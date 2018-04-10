@@ -734,7 +734,7 @@ text-decoration: none;
 }
 .index-section-head{
   grid-column: 1 2;
-  grid-row: 1; 
+  grid-row: 1;
 }
 .index-section-main{
   grid-column: 1;
@@ -956,6 +956,8 @@ font-family: 'Raleway', sans-serif;
   margin-left: 800px;
   word-spacing: 20px;
   font-family: "Crimson";
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .page-numbers{
   text-decoration: none;
@@ -970,11 +972,9 @@ font-family: 'Raleway', sans-serif;
   border: none;
   letter-spacing: 5px;
 }
-.page-numbers a:active a:hover{
+.page-numbers a:hover{
   background-color: #4b4f54;
-=======
   margin-bottom: 25px;
-    color: #777777;
+    /* color: #777777; */
     font-family: 'Crimson Text', serif;
->>>>>>> 16b4677589fe9cff681bc7bf14e87a973df0e77b
 }

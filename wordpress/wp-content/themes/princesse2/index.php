@@ -12,15 +12,6 @@
 <body>
 <?php get_header(); ?>
 
-<<<<<<< HEAD
-<?php get_template_part( 'category_first', get_post_format() );?>
-<?php get_template_part( 'category_featured', get_post_format() ); ?>
-<?php get_template_part( 'category_last', get_post_format() ); ?>
-
-
-
-<?php include "sidebar.php"; ?>
-=======
 <section class="index-section">
   <head class="index-section-head">
     <?php get_template_part( 'category_first', get_post_format() );?>
@@ -35,10 +26,8 @@
 </section>
 
 
+<?php print_r( get_the_posts_pagination());?>
 
->>>>>>> 16b4677589fe9cff681bc7bf14e87a973df0e77b
-
-<?php the_posts_pagination(); ?>
 
 <?php get_footer();?>
 
