@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 
 
-  <title>Document</title>
+  <title>Foodog SMGD 2.0</title>
 </head>
 <body>
 <?php get_header(); ?>
