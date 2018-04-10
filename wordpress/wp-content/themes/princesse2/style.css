@@ -726,8 +726,11 @@ text-decoration: none;
  */
 .index-section{
   display: grid;
-  grid-template-columns: 75% 25%;
+  grid-template-columns: 80% 20%;
   grid-template-rows: 2;
+
+  width:80%;
+  margin:auto;
 }
 .index-section-head{
   grid-column: 1 / span 2;
@@ -752,6 +755,7 @@ text-decoration: none;
   text-decoration: none;
   color:orange;
   font-size: 10px;
+  font-weight: bold;
 }
 .img_filter:hover{
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -810,14 +814,18 @@ text-decoration: none;
 }
 
 .article-large-category{
-  margin-bottom: 10px;
+font-family: 'Raleway', sans-serif;
+    color: #4b4f54;
+    margin-bottom: 10px;
 }
 .article-large-title{
-  margin-bottom: 10px;
+font-family: 'Raleway', sans-serif;
+    color: #4b4f54;
+    margin-bottom: 10px;
 }
 .article-small-section{
   text-align: center;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .article-small-image{
   margin-bottom: 10px;
@@ -827,14 +835,16 @@ text-decoration: none;
   margin-bottom: 10px;
 }
 .article-small-title{
-  margin-bottom: 10px;
+font-family: 'Raleway', sans-serif;
+    color: #4b4f54;
+    margin-bottom: 10px;
 }
 
 /*featured*/
 .category_featured-section{
   width:80%;
   margin:auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .article-middle-section{
   display:grid;
@@ -860,15 +870,20 @@ text-decoration: none;
   height:30vh;
 }
 .article-middle-category{
-  margin-bottom: 10px;
+font-family: 'Raleway', sans-serif;
+    color: #4b4f54;
+    margin-bottom: 10px;
 }
 .article-middle-title{
-  margin-bottom: 10px;
+font-family: 'Raleway', sans-serif;
+    color: #4b4f54;
+    margin-bottom: 10px;
 
 }
 .article-middle-excerpt{
   margin-bottom: 10px;
-
+  color: #777777;
+  font-family: 'Crimson Text', serif;
 }
 
 
@@ -878,7 +893,7 @@ text-decoration: none;
   grid-template-columns: 50% 50%;
   width:80%;
   margin:auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .category_last-left{
   grid-column: 1;
@@ -912,13 +927,18 @@ text-decoration: none;
   height:25vh;
 }
 .article-last-category{
-  margin-bottom: 10px;
+    color: #4b4f54;
+    font-family: 'Raleway', sans-serif;
+margin-bottom: 10px;
 }
 .article-last-title{
-  margin-bottom: 10px;
+    color: #4b4f54;
+    font-family: 'Raleway', sans-serif;
+margin-bottom: 10px;
 
 }
 .article-last-excerpt{
   margin-bottom: 10px;
-
+    color: #777777;
+    font-family: 'Crimson Text', serif;
 }
