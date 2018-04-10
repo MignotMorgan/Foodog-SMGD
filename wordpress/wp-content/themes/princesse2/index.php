@@ -15,6 +15,10 @@
 <?php get_template_part( 'category_first', get_post_format() );?>
 <?php get_template_part( 'category_featured', get_post_format() ); ?>
 <?php get_template_part( 'category_last', get_post_format() ); ?>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3837191c19dca9efa39fbbb2ef019effaafafaad
 
 <?php if (have_posts()): ?>
 <?php while (have_posts()):the_post();?>
