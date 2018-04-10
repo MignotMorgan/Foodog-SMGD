@@ -717,6 +717,14 @@ text-decoration: none;
 >>> 3.0 ARTICLES:
 ----------------------------------------------------------------
  */
+ .post-categories li{
+  display:inline;
+}.post-categories li a{
+  text-decoration: none;
+  color:orange;
+  font-size: 10px;
+}
+
 .category_first-section{
   display:grid;
   grid-template-columns: 65% 20% 20%;
