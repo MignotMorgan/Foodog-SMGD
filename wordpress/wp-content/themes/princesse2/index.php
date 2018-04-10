@@ -13,6 +13,8 @@
 <?php get_header(); ?>
 
 <?php get_template_part( 'category_first', get_post_format() );?>
+<?php get_template_part( 'category_featured', get_post_format() ); ?>
+
 
 <?php if (have_posts()): ?>
 <?php while (have_posts()):the_post();?>

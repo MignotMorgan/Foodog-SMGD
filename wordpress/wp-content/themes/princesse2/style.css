@@ -788,3 +788,42 @@ text-decoration: none;
 .article-small-title{
   margin-bottom: 10px;
 }
+
+/*featured*/
+.category_featured-section{
+  width:80%;
+  margin:auto;
+  border: 1px solid black;
+}
+.article-middle-section{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1;
+
+  margin:10px;
+}
+.article-middle-left{
+  grid-column: 1;
+  grid-row: 1;
+}
+.article-middle-right{
+  grid-column: 2;
+  grid-row: 1;
+}
+.article-middle-image{
+
+}
+.article-middle-img{
+
+}
+.article-middle-category{
+  margin-bottom: 10px;
+}
+.article-middle-title{
+  margin-bottom: 10px;
+
+}
+.article-middle-excerpt{
+  margin-bottom: 10px;
+
+}
