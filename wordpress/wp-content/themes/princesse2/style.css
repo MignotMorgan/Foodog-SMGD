@@ -954,12 +954,13 @@ font-family: 'Raleway', sans-serif;
 /* PAGINATION */
 .nav-links{
   margin-left: 600px;
-  word-spacing: 20px;
+  word-spacing: 10px;
   font-family: "Crimson";
   margin-top: 80px;
   margin-bottom: 80px;
 }
 .page-numbers{
+  font-size: 12px;
   text-decoration: none;
   border: 1px solid #bdbdbd;
   border-radius: 50%;
@@ -967,12 +968,15 @@ font-family: 'Raleway', sans-serif;
   padding: 8px 14px 8px 14px;
   color: #bdbdbd;
 }
+.nav-links a:hover{
+  background-color: #4b4f54;
+}
 .page-numbers.dots{
   text-decoration: none;
   border: none;
   letter-spacing: 5px;
 }
-.page-numbers a:hover{
+.page-numbers.current{
   background-color: #4b4f54;
   margin-bottom: 25px;
     /* color: #777777; */
