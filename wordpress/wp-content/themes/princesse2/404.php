@@ -10,8 +10,7 @@ Template Name: 404
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- <link rel="stylesheet" href="wp-content/themes/princesse/css/reset.css" type="text/css">
-  <link rel="stylesheet" href="wp-content/themes/princesse/css/style-404.css" type="text/css"> -->
+  <link rel="stylesheet" href="style.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <title>Page not found - FooDog</title>
