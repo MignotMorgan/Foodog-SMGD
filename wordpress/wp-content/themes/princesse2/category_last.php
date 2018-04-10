@@ -7,7 +7,13 @@ $args= array(
     'posts_per_page' => 6,
     'orderby'        => 'rand',
     'order' => 'DESC',
+
+    //'title' => "The Importance of Letting Your Dog Sniff"    
     // 'cat' => $catID
+    'post_type'        => 'post',
+    'meta_key'         => '_thumbnail_id',
+    'meta_value_num'   => 0,
+    'meta_compare'     => '!=' 
     );
 $the_query = new WP_Query($args);
 $i = 0;

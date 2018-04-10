@@ -772,6 +772,7 @@ text-decoration: none;
 }
 .article-large-img{
   width:100%;
+  height:450px;
   /* height:80%; */
   /* margin-bottom: 10px; */
 }
@@ -783,7 +784,6 @@ text-decoration: none;
   margin-bottom: 10px;
 }
 .article-small-section{
-
   text-align: center;
   border: 1px solid white;
 }
@@ -820,10 +820,12 @@ text-decoration: none;
   grid-row: 1;
 }
 .article-middle-image{
-
+  width:30vw;
+  height:30vh;
 }
 .article-middle-img{
-
+  width:30vw;
+  height:30vh;
 }
 .article-middle-category{
   margin-bottom: 10px;
@@ -870,10 +872,12 @@ text-decoration: none;
   grid-row: 2;
 }
 .article-last-image{
-
+  widows: 25vw;
+  height:25vh;
 }
 .article-last-img{
-
+  width:25vw;
+  height:25vh;
 }
 .article-last-category{
   margin-bottom: 10px;
