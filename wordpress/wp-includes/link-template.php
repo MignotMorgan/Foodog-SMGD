@@ -2533,8 +2533,8 @@ function get_the_posts_pagination( $args = array() ) {
 	if ( $GLOBALS['wp_query']->max_num_pages > 1 ) {
 		$args = wp_parse_args( $args, array(
 			'mid_size'           => 1,
-			'prev_text'          => _x( 'Previous', 'previous set of posts' ),
-			'next_text'          => _x( 'Next', 'next set of posts' ),
+			'prev_text'          => _x( '<', 'previous set of posts' ),
+			'next_text'          => _x( '>', 'next set of posts' ),
 			'screen_reader_text' => __( 'Posts navigation' ),
 		) );
 
@@ -2584,7 +2584,7 @@ function _navigation_markup( $links, $class = 'posts-navigation', $screen_reader
 
 	$template = '
 	<nav class="navigation %1$s" role="navigation">
-		<h2 class="screen-reader-text">%2$s</h2>
+		<h2 class="screen-reader-text"> </h2>
 		<div class="nav-links">%3$s</div>
 	</nav>';
 
@@ -2592,11 +2592,11 @@ function _navigation_markup( $links, $class = 'posts-navigation', $screen_reader
 	 * Filters the navigation markup template.
 	 *
 	 * Note: The filtered template HTML must contain specifiers for the navigation
-	 * class (%1$s), the screen-reader-text value (%2$s), and placement of the
+	 * class (%1$s), the screen-reader-text value (), and placement of the
 	 * navigation links (%3$s):
 	 *
 	 *     <nav class="navigation %1$s" role="navigation">
-	 *         <h2 class="screen-reader-text">%2$s</h2>
+	 *         <h2 class="screen-reader-text"> </h2>
 	 *         <div class="nav-links">%3$s</div>
 	 *     </nav>
 	 *

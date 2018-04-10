@@ -39,6 +39,8 @@ if ( $the_query->have_posts() ) :
         }
         $i++;
     }
+    
+
 endwhile;
 endif;
 ?>
