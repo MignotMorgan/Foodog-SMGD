@@ -5,7 +5,7 @@ $args= array(
     // 'showposts' => 5,
     'posts_per_page' => 5,
     'orderby'        => 'rand',
-    // 'title' => "MORGAN article"
+    'title' => "The Importance of Letting Your Dog Sniff"
     // 'cat' => $catID
 );
 $the_query = new WP_Query($args);
@@ -18,18 +18,18 @@ if ( $the_query->have_posts() ) :
             echo '<div class="category_first-large">';
                 get_template_part( 'article-large', get_post_format() );
             echo '</div>';
-            // echo '<div class="category_first-small_2">';
-            // get_template_part( 'article-small', get_post_format() );
-            // echo '</div>';
-            // echo '<div class="category_first-small_3">';
-            // get_template_part( 'article-small', get_post_format() );
-            // echo '</div>';
-            // echo '<div class="category_first-small_4">';
-            // get_template_part( 'article-small', get_post_format() );
-            // echo '</div>';
-            // echo '<div class="category_first-small_5">';
-            // get_template_part( 'article-small', get_post_format() );
-            // echo '</div>';
+            echo '<div class="category_first-small_2">';
+            get_template_part( 'article-small', get_post_format() );
+            echo '</div>';
+            echo '<div class="category_first-small_3">';
+            get_template_part( 'article-small', get_post_format() );
+            echo '</div>';
+            echo '<div class="category_first-small_4">';
+            get_template_part( 'article-small', get_post_format() );
+            echo '</div>';
+            echo '<div class="category_first-small_5">';
+            get_template_part( 'article-small', get_post_format() );
+            echo '</div>';
         }
         else
         {
