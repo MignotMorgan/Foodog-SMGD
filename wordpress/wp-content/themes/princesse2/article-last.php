@@ -4,7 +4,7 @@
             <?php
                 if ( has_post_thumbnail() )     // On verifie si l'article contient une image
                 {
-                    the_post_thumbnail('thumbnail', array('class' => 'article-last-img'));       // On affiche l'image.
+                    the_post_thumbnail('thumbnail', array('class' => 'article-last-img img_filter'));       // On affiche l'image.
                 }
             ?>
         </div>
@@ -21,8 +21,4 @@
         </div>
 
     </div>
-<<<<<<< HEAD
 </section>
-=======
-</section>
->>>>>>> 3837191c19dca9efa39fbbb2ef019effaafafaad

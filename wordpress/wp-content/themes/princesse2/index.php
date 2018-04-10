@@ -12,32 +12,21 @@
 <body>
 <?php get_header(); ?>
 
-<?php get_template_part( 'category_first', get_post_format() );?>
-<?php get_template_part( 'category_featured', get_post_format() ); ?>
-<?php get_template_part( 'category_last', get_post_format() ); ?>
-<<<<<<< HEAD
-=======
+<section class="index-section">
+  <head class="index-section-head">
+    <?php get_template_part( 'category_first', get_post_format() );?>
+  </head>
+  <main class="index-section-main">
+    <?php get_template_part( 'category_featured', get_post_format() ); ?>
+    <?php get_template_part( 'category_last', get_post_format() ); ?>
+  </main>
+  <aside class="index-section-aside">
+    <?php include "sidebar.php"; ?>
+  </aside>
+</section>
 
->>>>>>> 3837191c19dca9efa39fbbb2ef019effaafafaad
 
-<?php if (have_posts()): ?>
-<?php while (have_posts()):the_post();?>
 
-<?php the_post_thumbnail(); ?>
-
-<?php the_title(); ?>
-<?php the_content(''); ?>
-<?php endwhile;?>
-
-<?php the_posts_pagination();?>
-
-<?php else : ?> <h2>Oooopppsss...</h2> <p>Désolé, mais vous cherchez quelque chose qui ne se trouve pas ici .</p>
-<?php include ("404.php"); ?>
-<?php
-endif;
-?>
-
-<?php include "sidebar.php"; ?>
 
 <?php get_footer();?>
 

@@ -4,7 +4,7 @@
             <?php
                 if ( has_post_thumbnail() )     // On verifie si l'article contient une image
                 {
-                    the_post_thumbnail('thumbnail', array('class' => 'article-middle-img'));       // On affiche l'image.
+                    the_post_thumbnail('thumbnail', array('class' => 'article-middle-img img_filter'));       // On affiche l'image.
                 }
             ?>
         </div>

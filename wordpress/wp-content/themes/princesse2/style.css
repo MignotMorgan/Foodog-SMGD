@@ -96,7 +96,7 @@ table {
   text-decoration: none;
   color: #757575;
 }
-.header-title link: a:visited a:active{
+.header-title link a:visited a:active{
   text-decoration: none;
 }
 
@@ -721,6 +721,27 @@ text-decoration: none;
 } */
 
 /*--------------------------------------------------------------
+>>> 3.0 INDEX
+----------------------------------------------------------------
+ */
+.index-section{
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 2;
+}
+.index-section-head{
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+.index-section-main{
+  grid-column: 1;
+  grid-row: 2;
+}
+.index-section-aside{
+  grid-column: 2;
+  grid-row: 2;
+}
+/*--------------------------------------------------------------
 >>> 3.0 ARTICLES:
 ----------------------------------------------------------------
  */
@@ -731,6 +752,10 @@ text-decoration: none;
   text-decoration: none;
   color:orange;
   font-size: 10px;
+}
+.img_filter:hover{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .category_first-section{
@@ -813,7 +838,7 @@ text-decoration: none;
 }
 .article-middle-section{
   display:grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 35vw auto;
   grid-template-rows: 1;
 
   margin:10px;
@@ -896,8 +921,4 @@ text-decoration: none;
 .article-last-excerpt{
   margin-bottom: 10px;
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 3837191c19dca9efa39fbbb2ef019effaafafaad

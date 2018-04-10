@@ -18,7 +18,7 @@ if ( $the_query->have_posts() ) :
             get_template_part( 'article-middle', get_post_format() );
             get_template_part( 'article-middle', get_post_format() );
             get_template_part( 'article-middle', get_post_format() );
-    endwhile;
+    endwhile; 
 endif;
 ?>
 
