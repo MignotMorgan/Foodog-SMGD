@@ -17,6 +17,7 @@ License: Public
 6.0 - Single.php
 7.0 - Pagination.php
 8.0 - 404.php
+9.0 - Headersingle.php
 --------------------------------------------------------------*/
 
 
@@ -319,6 +320,7 @@ i {
 
 .dog-ad{
     margin-top:50px;
+    margin-right: 15px;
   }
 
   .sidebar{
@@ -981,4 +983,85 @@ font-family: 'Raleway', sans-serif;
   margin-bottom: 25px;
     /* color: #777777; */
     font-family: 'Crimson Text', serif;
+}
+
+/*--------------------------------------------------------------
+>>> 9.0 HEADER SINGLE
+----------------------------------------------------------------
+ */
+.header-single{
+  background-color: #ffffff;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+
+.left{
+  width:38%;
+  background-color: transparent;
+  height: 70px;
+}
+.hamb  img{
+    margin: 20px;
+}
+.digest img{
+  margin-top: 15px;
+}
+.middle{
+  width:50%;
+  height: 70px;
+  background-color: transparent;
+  display: flex;
+}
+.middle p{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 25px;
+  font-size: 17px;
+  letter-spacing: 0.7px;
+  background-color: transparent;
+}
+.signup{
+  border: solid 1px black;
+  width: 35%;
+  display: flex;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.yourmail{
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 5px;
+}
+.buttonmail{
+  width: 200px;
+  background-color: black;
+  border: none;
+  padding-right: 20px;
+  padding-left: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.right{
+  width: 4%;
+  height: 70px;
+  background-color: transparent;
+}
+.right img{
+  margin-top: 5px;
+}
+.headerloupe{
+  height: 45px;
+  margin-top: 15px;
+  border-left: 1px solid lightgrey;
+}
+.headerloupe img{
+  margin-top: 15px;
+  margin-left: 10px;
 }
