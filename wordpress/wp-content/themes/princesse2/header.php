@@ -27,7 +27,7 @@ Template Name: Header
             <a class="loupe-header" href=" " target="_top"><img src="<?php echo get_template_directory_uri();?>/loupe.png"></a>
         </div>
         <div class="header-title">
-            <a href="index.php"> FooDog </a>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" > FooDog </a>
     </div>
             <div class="category-list">
               <ul> <li>

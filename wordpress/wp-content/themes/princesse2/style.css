@@ -17,6 +17,7 @@ License: Public
 6.0 - Single.php
 7.0 - Pagination.php
 8.0 - 404.php
+9.0 - Headersingle.php
 --------------------------------------------------------------*/
 
 
@@ -816,6 +817,7 @@ text-decoration: none;
 .article-large-img{
   width:100%;
   height:450px;
+  margin-bottom: 20px;
   /* height:80%; */
   /* margin-bottom: 25px; */
 }
@@ -837,10 +839,12 @@ font-family: 'Raleway', sans-serif;
   /* border: 1px solid white; */
 }
 .article-small-image{
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 .article-small-img{
   width:100%;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 .article-small-title{
@@ -955,7 +959,6 @@ font-family: 'Raleway', sans-serif;
 
 }
 .article-last-excerpt{
-<<<<<<< HEAD
   margin-bottom: 10px;
 }
 
@@ -991,6 +994,7 @@ font-family: 'Raleway', sans-serif;
     font-family: 'Crimson Text', serif;
 }
 
+<<<<<<< HEAD
 
 
 /*--------------------------------------------------------------
