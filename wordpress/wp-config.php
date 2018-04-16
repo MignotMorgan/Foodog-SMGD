@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wordpress');
+define('DB_NAME', 'sarah');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -29,11 +29,11 @@ define('DB_USER', 'root');
 define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
+//define('DB_HOST', 'http://10.203.0.127/sarah/Foodog-SMGD/');
 define('DB_HOST', 'localhost');
-// define('DB_HOST', '10.203.0.81');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
@@ -88,3 +88,4 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+define('FS_METHOD', 'direct');

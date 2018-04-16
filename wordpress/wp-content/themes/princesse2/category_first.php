@@ -4,7 +4,7 @@ $args= array(
     // 'nbr' => 1,
     // 'showposts' => 5,
     'posts_per_page' => 5,
-    'orderby'        => 'rand',
+    //'orderby'        => 'rand',
     // 'title' => "The Importance of Letting Your Dog Sniff"
     // 'cat' => $catID
 );

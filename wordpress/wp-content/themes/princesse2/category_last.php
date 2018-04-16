@@ -8,7 +8,7 @@ $args= array(
     // 'showposts' => 5,
     'posts_per_page' => 6,
     'paged'          => $paged,
-    'orderby'        => 'rand',
+  //  'orderby'        => 'rand',
     'order' => 'DESC',
     // 'page'=>'get_page_uri',
 

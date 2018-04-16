@@ -962,6 +962,11 @@ font-family: 'Raleway', sans-serif;
   margin-bottom: 10px;
 }
 
+.article-last-excerpt p{
+  font-size: 17px;
+  font-family: 'Crimson-Text', serif;
+}
+
 /* PAGINATION */
 .nav-links{
   margin-left: 600px;
